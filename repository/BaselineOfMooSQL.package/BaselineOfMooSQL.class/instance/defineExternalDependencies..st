@@ -9,4 +9,6 @@ defineExternalDependencies: spec
 				repository: 'http://smalltalkhub.com/mc/DBXTalk/Garage/main';
 				loads: #('postgresV2') ];
 		baseline: 'FileDialog' with: [ 
-			spec repository: 'github://peteruhnak/file-dialog/repository' ]
+			spec repository: 'github://peteruhnak/file-dialog/repository' ];
+		baseline: 'PgMetadata' with: [ 
+			spec repository: 'github://olivierauverlot/PgMetadata' ]
