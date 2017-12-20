@@ -1,4 +1,4 @@
 groups
 defineGroups: spec
 	spec
-		group: 'MooSQL' with: #('DBConnectionsManager' 'DBPlayground')
+		group: 'MooSQL' with: #('MooSQL-Core' 'DBConnectionsManager' 'DBPlayground')
