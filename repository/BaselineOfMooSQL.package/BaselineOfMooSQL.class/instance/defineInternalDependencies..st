@@ -6,6 +6,8 @@ defineInternalDependencies: spec
 			spec repository: 'github://juliendelplanque/DBConnectionsManager/repository' ];
 		baseline: 'DBPlayground' with: [ 
 			spec repository: 'github://juliendelplanque/DBPlayground/repository' ];
+		baseline: 'DBQueryBenchmarker' with: [ 
+			spec repository: 'github://juliendelplanque/DBQueryBenchmarker/repository' ];
 		baseline: 'PostgreSQL' with: [ 
 			spec
 				repository: 'github://juliendelplanque/PostgreSQLParser/repository';
